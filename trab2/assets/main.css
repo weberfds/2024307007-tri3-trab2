@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+    width:initial;
+}
+
+main {
+    display:grid;
+    justify-content: center;
+    margin-inline: 5vw;
+    flex-wrap: wrap;
+
+     div.cabecalho {
+        text-align: center;
+    }
+
+    & > section {
+        height: 70vh;
+        columns: 2;
+        flex-direction: column;
+        padding: 5vh;
+        
+        & >  * {
+            padding: 1vh;
+        }
+        
+    }
+}
+
+section{
+    
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    
+   
+}
+
+section > div.login{
+    margin-left: 8vw;
+
+}
+
+section > div.bot{
+    margin-left: 8vw;
+}
+
+input{
+    height: 2vh;
+}
+
+
+div.bot > input{
+
+   padding-left: 3.5vw;
+   padding-right: 3.5vw;
+}
+
+div.caixa{
+    margin: 0;
+}
+
+div.caixa > input{
+   
+    height: 2vh;
+
+}
+
+div.bot2 > input{
+    padding: 0 7vw 0 7vw;
+}
+
+div.bot3 > input{
+    padding: 0 10.5vw 0 10.5vw;
+}
+
+section > p.truco{
+    color: red;
+    
+}
